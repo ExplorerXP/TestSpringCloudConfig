@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      name: xptest
+      profile: develop
+      label: test
+      uri: http://localhost:8023
+      server:
+        git:
+          uri: https://github.com/ExplorerXP/TestSpringCloudConfig
